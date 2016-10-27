@@ -1,0 +1,27 @@
+
+
+2016-01-25 Feng Guo <Guo@iastate.edu>
+
+	*Dungen.c(walkway function): my change made corridor from randomly one room to the other room to connect room from most left to right sequnce.
+
+2016-02-02 Feng Guo<Guo@iastate.edu>
+
+	*Dungen.c(LoadDungen function):change or loading Dungen from "rlg327/Dungen" with hardness information.
+	*Dungen.c(room_to_Dungen function): improve room generate efficiency and fix bugs.
+	*Dungen.c(SaveDungen function): Save current Dungen to "rlg327/Dungen"if no Dungen load from "rlg327/Dungen", Generate new Dungen and save in "rlg327/Dungen"
+
+2016-02-15 Feng Guo<Guo@iastate.edu>
+
+add pathfinding.c and pathfinding.h. Also use file from binheap.c and binheap.h
+
+2016-02-23 Feng Guo<Guo@iastate.edu>
+
+add pc_npc.c and pc_npc.h. change pathfinding.c function in tunnel and non_tunnel to better place character.
+
+2016-03-08 Feng Guo<Guo@iastate.edu>
+use solution code and add interface functions
+
+2016-03-22 Feng Guo<Guo@iastate.edu>
+Add link C and Fog function
+
+ 
